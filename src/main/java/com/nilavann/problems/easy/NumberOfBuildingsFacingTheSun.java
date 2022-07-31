@@ -1,4 +1,4 @@
-package com.nilavann.algorithms;
+package com.nilavann.problems.easy;
 /*
 
 Given an input array height[] representing the heights of buildings, write a program to count the number of
@@ -19,21 +19,10 @@ public class NumberOfBuildingsFacingTheSun {
 
     public static int numberOfBuildingsFacingTheSun(int[] heights){
         int result = 1;
-        int highestBuilding = heights[0];
+        int currMaxHeight = heights[0];
         for ( int i = 1; i < heights.length; i++){
-            if( highestBuilding > heights[i]){
-                highestBuilding = heights[i];
-                result++;
-            }
-        }
-        return result;
-    }
-
-    public static int alt1NumberOfBuildingsFacingTheSun(int[] heights){
-        int result = 1;
-
-        for ( int i = 1; i < heights.length; i++){
-            if( heights[i] > heights[i - 1]){
+            if( heights[i] > currMaxHeight){
+                currMaxHeight = heights[i];
                 result++;
             }
         }

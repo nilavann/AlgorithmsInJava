@@ -1,4 +1,4 @@
-package com.nilavann.Utilities;
+package com.nilavann.utilities;
 
 public class Helper {
 

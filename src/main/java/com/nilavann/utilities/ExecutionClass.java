@@ -1,13 +1,8 @@
-package com.nilavann.Utilities;
+package com.nilavann.utilities;
 
-import com.nilavann.DymanicProgramming.CanHowBestSubString;
-import com.nilavann.DymanicProgramming.CanHowBestSum;
-import com.nilavann.DymanicProgramming.FibonacciSeries;
-import com.nilavann.algorithms.*;
+import com.nilavann.problems.easy.NumberOfBuildingsFacingTheSun;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class ExecutionClass {
 

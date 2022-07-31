@@ -1,4 +1,4 @@
-package com.nilavann.DymanicProgramming;
+package com.nilavann.dymanicprogramming;
 
 import java.util.ArrayList;
 import java.util.HashMap;

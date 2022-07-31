@@ -1,4 +1,4 @@
-package com.nilavann.Utilities;
+package com.nilavann.utilities;
 
 import java.io.BufferedReader;
 import java.io.IOException;
