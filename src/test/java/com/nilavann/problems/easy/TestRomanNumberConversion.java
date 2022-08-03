@@ -14,6 +14,6 @@ public class TestRomanNumberConversion {
     @ParameterizedTest( name = "RomanNumber = {0}, Expected = {1}")
     @CsvSource( value = { "I, 1", "IV, 4", "VI, 6", "IX, 9", "XI, 11", "XL, 40", "MCMIV, 1904", "LVIII, 58", "MCMXCIV, 1994"})
     void fail_if_testcases_fail(String romanNumber, int expected){
-        assertEquals(RomanNumberConversion.romanttoInteger( romanNumber), expected);
+        assertEquals( expected, RomanNumberConversion.romanttoInteger( romanNumber));
     }
 }
