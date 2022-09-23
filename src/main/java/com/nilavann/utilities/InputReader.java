@@ -14,7 +14,6 @@ public class InputReader {
         reader = new BufferedReader(new InputStreamReader(stream), 32768);
         tokenizer = null;
     }
-
     public String next() {
         while (tokenizer == null || !tokenizer.hasMoreTokens()) {
             try {
@@ -25,7 +24,6 @@ public class InputReader {
         }
         return tokenizer.nextToken();
     }
-
     public int nextInt() {
         return Integer.parseInt(next());
     }

@@ -1,5 +1,6 @@
 package com.nilavann.utilities;
 
+import com.nilavann.arrays.FindMaxValueInArrayPerWindow;
 import com.nilavann.problems.easy.NumberOfBuildingsFacingTheSun;
 
 import java.util.*;
@@ -42,8 +43,11 @@ public class ExecutionClass {
         scan.close();
 
 
-        System.out.println( NumberOfBuildingsFacingTheSun.numberOfBuildingsFacingTheSun( new int[]{ 2,3,4,5}));
-        System.out.println( NumberOfBuildingsFacingTheSun.numberOfBuildingsFacingTheSun( new int[]{ 2,3,4,5}));
+        /*System.out.println( NumberOfBuildingsFacingTheSun.numberOfBuildingsFacingTheSun( new int[]{ 2,3,4,5}));
+        System.out.println( NumberOfBuildingsFacingTheSun.numberOfBuildingsFacingTheSun( new int[]{ 2,3,4,5}));*/
+
+        System.out.println( FindMaxValueInArrayPerWindow.solve( new int[]{ 2,3,4,5}, 4, 3));
+        System.out.println( FindMaxValueInArrayPerWindow.solve( new int[]{ 0,-5, -2, -3, 7, 8, 1, 2, 3, 4}, 10, 3));
 
     }
 
